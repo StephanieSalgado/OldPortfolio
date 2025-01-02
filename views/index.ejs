@@ -1,0 +1,105 @@
+<%- include('layouts/header.ejs') %>    
+      <div class="container">
+        <br> <br>
+        <h1> ABOUT ME </h1>
+        <br>
+        <div class="row">
+          <div class="col text-center">
+            <img src="media/memoji.png" class="card-img-fluid" width="100<%  %> " alt="memoji">
+          </div> 
+        </div>    
+           <br> <br>
+        <h2> My Hobbies </h2>
+        <br><br> 
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <h5 style="color:black;"> Music </h5>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <p style="color: black;"><strong>I enjoy listening to music, but I love playing instruments even more!</strong> I usually play guitar, violin and piano. I was in orchestra from 6th-12th grade and it was there that I learned to play violin and developed a 
+                  fondness for playing music. I learned guitar and piano on my own, but I also play ukulele, cello, kalimba, recorder, flute, and accordion. Sometimes, I also make my own tab. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <h5 style="color:black;"> Sports </h5>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <p style="color: black;"><strong>Football (Soccer) is the best sport.</strong> I really like playing sports including basketball, volleyball, martials arts and soccer. Although I don't really anymore, I still enjoy watching soccer and know a whole bunch about the european leagues. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <h5 style="color:black;"> Language Learning  </h5>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <p style="color: black;"><strong>Being bilingual isn't enough.</strong> My first language was Spanish. I learned English through school and now it's the language I use most. 
+                  However, I have always been fascinated by different languages. I can't speak any of the languages I've tried learning with complete fluency, but I can handle myself well in the romance languages. 
+                  My French is pretty good considering I don't have much practice, and my Italian is usually good. A language like Portugese can get a little confusing because so many of the words sounds very similar to Spanish 
+                  words I already know by heart. The languages I have learned (at various different levels) include: Albanian, Arabic, Catalan, English, Farsi (Persian), Greek, Hebrew, Italian, Latin, Portugese, Russian, Spanish, and Turkish.
+                </p>
+              </button>
+              </div>
+              </div>
+          <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    <h5 style="color:black;"> Writing </h5>
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    <p style="color: black;"><strong>So, I'm kind of writing a novel...</strong> I've liked writing and coming up with stories since I was a child. The idea for my "book" was developed while I was in middle school. I don't have too much written because I always find ways 
+                      to procrastinate and decide I'm unhappy with the parts I write. 
+                    </p>
+                  </button>
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                  <h5 style="color:black;"> Gaming </h5>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFive">
+                <div class="accordion-body">
+                  <p style="color: black;"><strong>Gamertag: OnlyXSteph</strong> What I spend a lot of my time doing is gaming. I like playing all kind of games if the time is right but 
+                    usually I'll play first person shooters or mutiplayer games. 
+                  </p>
+                </button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <h2> A clip from the game I've been playing lately:</h2>
+          <br>
+          <video width="100%" height="100%" controls>
+            <source src="media/gameclip.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+      </div>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

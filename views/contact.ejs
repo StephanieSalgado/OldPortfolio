@@ -1,0 +1,38 @@
+<%- include('layouts/header.ejs') %>    
+      <div class="container">
+        <br> <br>
+        <h1> CONTACT ME: </h1>     
+        <br>
+        <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <img src="media/memoji.png" alt="memoji" width="10%">
+            </div>
+        </div>
+    </div>
+      </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-5 text-center contactform p-5">
+                <form action="/submitContact" method="post">
+                    <input type="text" class="form-control mb-4" name="fname" aria-describedby="firstname" placeholder="First Name">
+                    <input type="text" class="form-control mb-4" name="lname" aria-describedby="lastname" placeholder="Last Name">
+                    <input type="email" class="form-control mb-4" name="email" aria-describedby="emailHelp" placeholder="Email">
+                    <label for="selection" class="form-label" style="color:white"><strong>Reason for contact:</strong> </label>
+                    <select class="form-select mb-4" aria-label="Default select example" name="reason">
+                        <option selected value="Bug">Report a bug</option>
+                        <option value="Opportunity">Opportunity</option>
+                        <option value="Connect">Connect</option>
+                    </select>
+                    <textarea class="form-control mb-4" name="comment" rows="3" placeholder="Comment"></textarea>
+                    <div class="row d-flex justify-content-center">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

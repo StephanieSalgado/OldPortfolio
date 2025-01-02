@@ -1,0 +1,94 @@
+/*Changes color of webpage.*/
+body {
+    font-family: 'Bebas Neue' sans-serif;
+    font-weight: 500;
+    background-color:black;
+    width: 100%;
+}
+.container {
+    margin: 10%, 10%;
+}
+/*Changes color of text that appears in webpage.*/
+h1, h2, h3, h4, h5, h6, p {
+    color:white;
+}
+/*Aligns Webpage Headings to Center*/
+h1{
+    text-align: center;
+}
+
+/*Changes color of navbar.*/
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul{
+    margin: 0;
+}
+
+/*Changes color of the nav items.*/
+.nav-items {
+    padding: 12px; 
+    color: black; 
+    margin-right: 10%;
+}
+
+/*Changes color of nav links.*/
+.nav-link {
+    border-radius: 12px;
+    color:black
+}
+
+/*Changes color of nav link while active.*/
+.nav-link a:active {
+    color: white;
+}
+
+/*Changes color of nav item when the mouse is over it.*/
+.nav-item a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*Changes color of nav item that's currently being displayed.*/
+.active {
+    background-color: black;
+    color:white
+}
+
+/*Changes color of dropdown.*/
+.dropdown {
+    background-color: black;
+    padding: 12px; 
+    border-radius: 12px;
+}
+
+/*Changes color of dropdown box.*/
+.dropdown-toggle {
+    color:white
+}
+
+/*Makes sure color of dropdown text when the mouse is over it doesn't change.*/
+.dropdown a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+ .btn {
+    width: 215px; 
+    background-color: white; 
+    color: black;
+    padding: 12px;
+
+ }
+.btn:hover {
+    background-color: darkgray;
+    outline-color: white;
+}
+
+
+
